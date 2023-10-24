@@ -4,11 +4,7 @@ jobs:
   first-test:
     runs-on: ubuntu:22.04
     steps:
-
       - name: printing somenthing in only line of code
         run: |
-
             sudo apt-get update
             echo "That is working well"
-
-      
