@@ -1,0 +1,12 @@
+name: Second Try
+on: push 
+jobs:
+    Enviroment:
+        runs-on: ubuntu-lastest
+        steps:
+            - name: Printing Something
+              run: echo "Second Chance"
+            - name: Second Command
+              run: sudo apt update
+            - name: Close test
+              run: echo "That is over ...."
